@@ -1,0 +1,20 @@
+[project]
+name = "SemanticDrugSim"
+version = "0.1.0"
+description = """
+Repository for Python scripts for computing semantic drug similarity by unsupervised learning.
+A project by Zhean Ganituen, Stephen Borja, Erin Chua, Gideon Chua, and Nathaniel Oco.
+"""
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fasttext",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "strsimpy>=0.2.1",
+]
+
+[tool.uv.sources]
+fasttext = { path = "vendor/fasttext-0.9.2-cp311-cp311-win_amd64.whl" }
