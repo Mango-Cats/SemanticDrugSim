@@ -17,7 +17,7 @@ learning using PubMed corpus and a fastText model.
 Simply clone the repository:
 
 ```bash
-$ git clone https://github.com/Thesis-Mother-PhOCAS/SemanticDrugSim
+$ git clone https://github.com/Mango-Cats/SemanticDrugSim
 ```
 
 This project uses [uv](https://docs.astral.sh/uv/guides/install-python/) for
