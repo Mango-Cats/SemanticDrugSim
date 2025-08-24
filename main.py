@@ -1,29 +1,22 @@
 import fasttext
-from .similarity.similarity import get_similarity
-from .visualize.heat_map import make_heat_map
+from similarity.similarity import get_similarity
+from visualize.heat_map import make_heat_map
 
 if __name__ == "__main__":
     query_drugs = [
-        "paracetamol", "acetaminophen", "ibuprofen", "naproxen", "aspirin", "celecoxib",
-        "morphine", "oxycodone", "hydrocodone", "fentanyl", "tramadol",
-        "amoxicillin", "ampicillin", "penicillin", "cloxacillin", "dicloxacillin",
-        "cephalexin", "cefuroxime", "ceftriaxone", "cefepime", "cefotaxime",
-        "azithromycin", "clarithromycin", "erythromycin", "roxithromycin", "telithromycin",
-        "lisinopril", "enalapril", "captopril", "ramipril", "benazepril",
-        "atenolol", "metoprolol", "propranolol", "carvedilol", "bisoprolol",
-        "metformin", "glipizide", "glyburide", "pioglitazone", "sitagliptin",
-        "atorvastatin", "simvastatin", "rosuvastatin", "pravastatin", "lovastatin",
-        "fluoxetine", "sertraline", "citalopram", "escitalopram", "paroxetine"
+        # add a list of drugs here
+        # the drugs here are case-insensitive but ensure no non-alphabet
+        # characters exist
     ]
 
-    alpha = 0.75
-    beta = 1 - alpha
+    semantic_weight = .8
+    orthographic_weight = 1 - semantic_weight
 
     similarity = get_similarity(
         query_drugs, 
-        fasttext.load_model("models/pubmed_model.bin"), 
-        alpha, 
-        beta
+        fasttext.load_model("drug_embedding_model.bin"), 
+        semantic_weight,
+        orthographic_weight, 
     )
 
     make_heat_map(query_drugs, similarity)
