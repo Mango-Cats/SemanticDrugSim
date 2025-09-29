@@ -1,10 +1,9 @@
-# Additional Heatmaps for Conference Proceeding (OCOCOSDA 2025)
+# Additional Heatmaps Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis
 
 This directory contains supplementary heatmaps referenced in the paper:
-
-> **Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis**  
-> Accepted for presentation at the **28th International Conference of Oriental COCOSDA**,  
-> November 12–14, 2025, Universitas Kristen Duta Wacana (UKDW), Yogyakarta, Indonesia.
+**Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis** 
+- Accepted for presentation at the **28th International Conference of Oriental COCOSDA**,
+- (To be) Presented on November 12–14, 2025, Universitas Kristen Duta Wacana (UKDW), Yogyakarta, Indonesia.
 
 ## Contents
 
