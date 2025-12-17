@@ -52,4 +52,21 @@ activate the Python virtual environments (venv) and adds all dependencies to it.
 
 ## Citation
 
-> 🚧 None yet.
+BibTeX:
+```bib
+  @software{Ganituen2025Software,
+    author    = {Ganituen, Zhean Robby and Borja, Stephen and Chua, Erin Gabrielle and Chua, Gideon},
+    title     = {{SemanticDrugSim}}
+  }
+
+  @inproceedings{Ganituen2025,
+    author    = {Ganituen, Zhean Robby and Borja, Stephen and Chua, Erin Gabrielle and Chua, Gideon and Oco, Nathaniel},
+    title     = {Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis},
+    booktitle = {Proceedings of the 28th International Conference of Oriental COCOSDA},
+    year      = {2025},
+    address   = {Yogyakarta, Indonesia},
+    month     = {November}
+  }
+```
+
+Also see [`CITATION.cff`](CITATION.cff)
