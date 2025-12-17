@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the following paper."
+
+title: "Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis"
+type: conference-paper
+year: 2025
+
+authors:
+  - family-names: Ganituen
+    given-names: Zhean Robby
+    orcid: https://orcid.org/0009-0002-3266-5384
+  - family-names: Borja
+    given-names: Stephen
+  - family-names: Chua
+    given-names: Erin Gabrielle
+  - family-names: Chua
+    given-names: Gideon
+  - family-names: Oco
+    given-names: Nathaniel
+
+conference:
+  name: "28th International Conference of Oriental COCOSDA "
+  location: "Yogyakarta, Indonesia"
+  start-date: "2025-11-12"
+  end-date: "2025-11-14"
+
