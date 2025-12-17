@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite the following paper."
-title: "Drug Name Similarity Analysis Tool" # Add your software title here
+title: "SemanticDrugSim"
 authors:
   - family-names: Ganituen
     given-names: Zhean Robby
