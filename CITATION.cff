@@ -1,27 +1,34 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite the following paper."
-
-
+title: "Drug Name Similarity Analysis Tool" # Add your software title here
+authors:
+  - family-names: Ganituen
+    given-names: Zhean Robby
+  - family-names: Borja
+    given-names: Stephen
+  - family-names: Chua
+    given-names: Erin Gabrielle
+  - family-names: Chua
+    given-names: Gideon
 references:
   - type: conference-paper
-  authors:
-    - family-names: Ganituen
-      given-names: Zhean Robby
-      orcid: https://orcid.org/0009-0002-3266-5384
-    - family-names: Borja
-      given-names: Stephen
-    - family-names: Chua
-      given-names: Erin Gabrielle
-    - family-names: Chua
-      given-names: Gideon
-    - family-names: Oco
-      given-names: Nathaniel
-  title: "Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis"
-  collection-title: "Proceedings of the 28th International Conference of Oriental COCOSDA"
-  year: 2025
-  conference:
-    name: "28th International Conference of Oriental COCOSDA"
-    location: "Yogyakarta, Indonesia"
-    start-date: "2025-11-12"
-    end-date: "2025-11-14"
-
+    authors:
+      - family-names: Ganituen
+        given-names: Zhean Robby
+        orcid: "https://orcid.org/0009-0002-3266-5384"
+      - family-names: Borja
+        given-names: Stephen
+      - family-names: Chua
+        given-names: Erin Gabrielle
+      - family-names: Chua
+        given-names: Gideon
+      - family-names: Oco
+        given-names: Nathaniel
+    title: "Integrating Semantic and Orthographic Features for Drug Name Similarity Analysis"
+    collection-title: "Proceedings of the 28th International Conference of Oriental COCOSDA"
+    year: 2025
+    conference:
+      name: "28th International Conference of Oriental COCOSDA"
+      location: "Yogyakarta, Indonesia"
+      date-start: 2025-11-12
+      date-end: 2025-11-14
